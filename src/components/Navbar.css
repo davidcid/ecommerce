@@ -1,0 +1,30 @@
+nav {
+  background-color: rgb(18, 148, 72);
+  color: white;
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+.logo {
+  margin: 0 20px;
+}
+
+ul {
+  margin: 0 20px;
+  display: flex;
+}
+
+li {
+  list-style: none;
+  margin-right: 30px;
+}
+
+.shopping-cart {
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.active-user {
+  margin-right: 20px;
+}
