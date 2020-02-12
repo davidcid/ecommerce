@@ -23,7 +23,9 @@ class App extends React.Component {
         <Navbar />
         <ShoppingCart numItems={this.state.cartItems} />
         <Test1 onButtonSubmit={this.onButtonSubmit} />
-        <Products />
+        <div className="container">
+          <Products />
+        </div>
       </div>
     );
   }
