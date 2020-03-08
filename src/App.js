@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
-import Test1 from "./components/Test1";
+import AddItem from "./components/AddItem";
 import ShoppingCart from "./components/ShoppingCart";
 import Products from "./components/Products";
 
@@ -22,7 +22,7 @@ class App extends React.Component {
       <div>
         <Navbar />
         <ShoppingCart numItems={this.state.cartItems} />
-        <Test1 onButtonSubmit={this.onButtonSubmit} />
+        <AddItem onButtonSubmit={this.onButtonSubmit} />
         <div className="container">
           <Products />
         </div>
